@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*word-break属性指定非CJK文本的断行规则。
+        提示:CJK脚本是中国，日本和韩国（"中日韩"）文本。*/
+        div{
+            width:150px;
+            border:1px solid #000000;
+            margin: 5px;
+        }
+
+        .d1{
+            word-break: break-all;/*单词内强制换行*/
+        }
+
+        .d2{
+            word-break: keep-all;/*单词内不换行*/
+        }
+
+        .d3{
+            word-break: normal;/*浏览器默认的换行规则*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d1">I love you soooooooooooooooooooooooooo much!</div>
+    <div class="d2">I love you soooooooooooooooooooooooooo much!</div>
+    <div class="d3">I love you soooooooooooooooooooooooooo much!</div>
+</body>
+</html>

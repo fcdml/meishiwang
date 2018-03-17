@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>美食网 - 意见与建议</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="login-bar">
+            <a class="qq-login" href="#">QQ登录</a>
+            <a class="wb-login" href="#">微博登录</a>
+        </div>
+        <div class="logo">
+            <img src="images/new_year_logo.gif" alt="美食网">
+        </div>
+        <ul class="nav">
+            <li><a href="home.html">主页</a></li>
+            <li><a href="recipes.html">美食菜单</a></li>
+            <li><a href="suggest.html">讨论组</a></li>
+        </ul>
+    </div><!-- .header 结束-->
+    <div class="main-content">
+        <h2>发布美食</h2>
+        <form action="success.html" method="post">
+            <label for="recipe-name">食谱名称</label>
+            <input type="text" id="recipe-name" name="recipe-name"><br>
+            <label for="photos">上传成品图</label>
+            <input type="file" id="photos"><br>
+            <label>美食类型</label>
+            <input type="radio" name="type" id="type-a" checked value="1"><label for="type-a">原创</label>
+            <input type="radio" name="type" id="type-b" value="2"><label for="type-b">转载</label><br>
+            <label>人数</label>
+            <select>
+                <option>1人</option>
+                <option selected>2人</option>
+                <option>3人</option>
+                <option>多人</option>
+            </select><br>
+            <label for="ingredients">材料</label>
+            <textarea id="ingredients"></textarea><br>
+            <label for="directions">制作过程</label>
+            <textarea id="directions"></textarea><br>
+            <input type="checkbox" id="newsletter" checked>
+            <label for="newsletter">订阅新闻邮件？</label><br>
+            <input type="submit" value="发布">
+            <input type="reset" value="重新填写">
+        </form>
+    </div><!-- .main-content 结束-->
+    <div class="footer">
+        <p>&copy;2015 - RecipeWorld - 美食网</p>
+    </div><!-- .footer 结束-->
+</body>
+</html>

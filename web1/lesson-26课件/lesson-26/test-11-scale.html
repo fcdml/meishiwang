@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        div {
+            width: 250px;
+            height: 375px;
+            perspective: 500px;
+            perspective-origin: right top;
+        }
+
+        @-webkit-keyframes rotate {
+            100% {transform: scaleZ(5) translateZ(100px);}
+        }
+
+        img{
+            -webkit-animation: rotate 2s linear 2s both infinite;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <img src="lufei.jpg">
+    </div>
+
+
+</body>
+</html>

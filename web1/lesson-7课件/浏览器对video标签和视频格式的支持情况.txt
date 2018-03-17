@@ -1,0 +1,6 @@
+浏览器对video标签的支持情况以及浏览器对视频格式的支持情况：
+ http://caniuse.com/#search=video
+这里可以查询到最新的统计数据
+
+
+

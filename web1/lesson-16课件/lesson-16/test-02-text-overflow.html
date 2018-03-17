@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            width:150px;
+            border:1px solid #000000;
+            margin: 5px;
+            white-space:nowrap;/*强制文本显示在一行*/
+            overflow:hidden;/*隐藏溢出盒子的文本*/
+        }
+
+        .d1{
+            text-overflow: clip;/*默认值*/
+        }
+
+        .d2{
+            text-overflow: ellipsis;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d1">这是一段盒子装不下的长文本</div>
+    <div class="d2">这是一段盒子装不下的长文本</div>
+</body>
+</html>

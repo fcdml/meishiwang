@@ -1,0 +1,34 @@
+/*外层盒子*/
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*头部*/
+.top-header{
+    margin: 10px 0;
+}
+
+/*侧边栏*/
+.left-aside{
+    float: left;
+    width: 350px;
+}
+
+/*主内容区域*/
+main{
+    background: #efe5d0 url(images/background.gif) top left;
+    padding: 20px;
+    margin-left: 360px;
+}
+
+/*页脚*/
+.page-footer{
+    clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    font-size: 90%;
+}

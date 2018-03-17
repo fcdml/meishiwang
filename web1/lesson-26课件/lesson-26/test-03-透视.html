@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        body{
+            background-color: #fbfbfb;
+        }
+
+        .parent{
+            width: 200px; height: 200px;
+            position: absolute; top: 200px; left:200px;
+            perspective: 400px;/*透视距离*/
+            perspective-origin: right top;/*透视位置*/
+        }
+
+        .child{
+            width: 100%; height: 100%; font-size: 28px;
+            background-color: rgba(255,0,255,0.5); color: #FFFFFF;
+            -webkit-animation: rotate 2s linear 8s both;
+        }
+
+        @-webkit-keyframes rotate {
+            100% {transform: rotateX(90deg);}
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="parent">
+    <div class="child">透视</div>
+</div>
+
+</body>
+</html>

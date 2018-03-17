@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        @keyframes myball {
+            100% {transform: rotate(360deg);}
+        }
+
+        @-webkit-keyframes myball {
+            100% {transform: rotate(360deg);}
+        }
+
+        img{
+            animation-name: myball;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            -webkit-animation-name: myball;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-play-state: running;
+        }
+
+        img:hover{
+            animation-play-state: paused;
+            -webkit-animation-play-state: paused;
+        }
+
+    </style>
+</headody>
+
+    <img src="basketball.png">
+
+</body>
+</html>

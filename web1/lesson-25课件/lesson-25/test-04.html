@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        @keyframes mybox {
+            0% {transform: translate(0, 200px);}
+            50% {transform: translate(200px, 0);}
+            100% {transform: translate(200px, 200px);}
+        }
+
+        @-webkit-keyframes mybox {
+            0% {transform: translate(0, 200px);}
+            50% {transform: translate(200px, 0);}
+            100% {transform: translate(200px, 200px);}
+        }
+
+        div{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            animation-name: mybox;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            -webkit-animation-name: mybox;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-delay: 2s;
+            -webkit-animation-fill-mode: both;
+        }
+
+    </style>
+</headody>
+
+    <div></div>
+
+</body>
+</html>

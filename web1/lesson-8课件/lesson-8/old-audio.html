@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <!--兼容所有的浏览器-->
+    <embed src="YouAreMySunshine.mp3"></embed>
+
+    <!--兼容所有的浏览器（IE低版本不适用）-->
+    <object data="YouAreMySunshine.mp3"></object>
+
+    <!--适用于IE-->
+    <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+            codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+        <param name="src" value="YouAreMySunshine.mp3">
+        <param name="controller" value="true">
+    </object>
+
+</body>
+</html>

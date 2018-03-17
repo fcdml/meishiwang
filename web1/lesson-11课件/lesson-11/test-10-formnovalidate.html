@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--在提交按钮中使用formnovalidate就不会验证数字、邮箱和网址-->
+
+    <form action="success.html" method="post">
+        <div>数字：<input type="number"></div>
+        <div>邮箱：<input type="email"></div>
+        <div>网址：<input type="url"></div>
+        <div><input type="submit" formnovalidate></div>
+    </form>
+
+</body>
+</html>
